@@ -15,6 +15,8 @@ This plugin was originally a Premium resource of mine on Spigot, and having move
 - `/control reload  `
 - `/control simple  `
 
+### Customize
+## Just edit ./plugins/ControlPlayer/messages.yml. You can edit ProjectName for show in /control help menu
 ### Permissions
 You may add each permission node individually, or use the parent nodes as shown below.
 
