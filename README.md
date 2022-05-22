@@ -7,6 +7,7 @@ This plugin was originally a Premium resource of mine on Spigot, and having move
 
 ## Usage
 ### Commands
+/control [player]
 /control <player> [player]  
 /control controlnearest  
 /control stop [player]  
