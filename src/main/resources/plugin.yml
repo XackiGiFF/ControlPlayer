@@ -1,0 +1,51 @@
+########################
+# iControlU Plugin.yml #
+########################
+name: ControlPlayer
+version: 2.4.9-rus
+main: com.hadenwatne.icontrolu.plugin.iControlU
+author: XackiGiFF
+softdepend: [ProtocolLib]
+api-version: 1.13
+commands:
+  control:
+permissions:
+  control.*:
+    children:
+      control.use: true
+      control.other: true
+      control.nearest: true
+      control.forcechat: true
+      control.simple: true
+      control.readchat: true
+  control.admin:
+    children:
+      control.*: true
+      control.exempt: true
+      control.nocooldown: true
+      control.notimelimit: true
+      control.reload: true
+  control.use:
+    default: op
+  control:
+    default: op
+  control.other:
+    default: op
+  control.exempt:
+    default: false
+  control.chat:
+    default: false
+  control.reload:
+    default: op
+  control.nearest:
+    default: op
+  control.forcechat:
+    default: op
+  control.readchat:
+    default: op
+  control.nocooldown:
+    default: false
+  control.notimelimit:
+    default: false
+  control.simple:
+    default: op
