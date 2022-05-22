@@ -7,13 +7,13 @@ This plugin was originally a Premium resource of mine on Spigot, and having move
 
 ## Usage
 ### Commands
-/control [player]
+`/control [player]
 /control <player> [player]  
 /control controlnearest  
 /control stop [player]  
 /control forcechat <player> <message>  
 /control reload  
-/control simple  
+/control simple  `
 
 ### Permissions
 You may add each permission node individually, or use the parent nodes as shown below.
