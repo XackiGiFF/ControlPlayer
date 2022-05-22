@@ -7,31 +7,31 @@ This plugin was originally a Premium resource of mine on Spigot, and having move
 
 ## Usage
 ### Commands
-/icu control <player> [player]  
-/icu controlnearest  
-/icu stop [player]  
-/icu forcechat <player> <message>  
-/icu reload  
-/icu simple  
+/control <player> [player]  
+/control controlnearest  
+/control stop [player]  
+/control forcechat <player> <message>  
+/control reload  
+/control simple  
 
 ### Permissions
 You may add each permission node individually, or use the parent nodes as shown below.
 
-- icu.use - Allows access to the "/icu" command  
-- icu.control.* - Grants access to every control command  
-  - icu.use - (see above)  
-  - icu.control - Can use "/icu control <player>"  
-  - icu.control.other - Can use "/icu control <player> [player]"  
-  - icu.control.nearest - Can use "/icu controlnearest"  
-  - icu.forcechat - Can use "/icu forcechat <player> <message>  
-  - icu.readchat - Can read the target's chatbox activity  
-  - icu.simple - Enables Simple Mode  
-- icu.admin - Allows players to control without being controlled  
-  - icu.exempt - Exempt ("immune") from being controlled  
-  - icu.control.* - See above  
-  - icu.reload - Can reload the plugin's configuration  
-  - icu.nocooldown - Disables the cooldown for this player  
-  - icu.notimelimit - Disables a maximum control time for this player  
+- control.use - Allows access to the "/icu" command  
+- control.* - Grants access to every control command  
+  - control.use - (see above)  
+  - control - Can use "/icu control <player>"  
+  - control.other - Can use "/icu control <player> [player]"  
+  - control.nearest - Can use "/icu controlnearest"  
+  - control.forcechat - Can use "/icu forcechat <player> <message>  
+  - control.readchat - Can read the target's chatbox activity  
+  - control.simple - Enables Simple Mode  
+- control.admin - Allows players to control without being controlled  
+  - control.exempt - Exempt ("immune") from being controlled  
+  - control.* - See above  
+  - control.reload - Can reload the plugin's configuration  
+  - control.nocooldown - Disables the cooldown for this player  
+  - control.notimelimit - Disables a maximum control time for this player  
 
 _Simple Mode removes time limits, cooldowns, helmet effectiveness, and sound effects from your troll. Additionally, the controller will teleport back to their original location when the troll is over._
 
