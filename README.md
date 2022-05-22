@@ -1,3 +1,5 @@
+##Clonned for translate and modifate. Dangerous, unstable plugin!!!
+
 ## Overview
 iControlU is a popular Minecraft trolling plugin that aims to add mind control to your Spigot server. With just one simple command, players are able to take control over other online players. Currently, iControlU supports controlling movements, chats, inventories, commands, health, hunger, and damage.
 
