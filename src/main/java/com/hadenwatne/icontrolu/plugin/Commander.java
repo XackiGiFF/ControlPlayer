@@ -24,7 +24,7 @@ public class Commander implements CommandExecutor{
 					//String projectname = plugin.getMessages().getProjectName();
 					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&f========== &b&lHacker&f&lCraft &8| &bКОНТРОЛЬ &f=========="));
 					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control [controller] [player] &8- &fВойти в режим контроля."));
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control stop [controller] &8- Выйти из режима контроля."));
+					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control stop [controller] &8- &fВыйти из режима контроля."));
 					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control nearest &8- &fКонтролировать ближайшего игрока."));
 					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control forcechat [player] [message] &f- Написать сообщение от имени игрока."));
 					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control simple &8- &fВыйти в обычный режим."));
