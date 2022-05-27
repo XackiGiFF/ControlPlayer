@@ -19,18 +19,16 @@ public class Commander implements CommandExecutor{
 		if(cmd.getName().equalsIgnoreCase("control")){
 			if(sender.hasPermission("control.use")) {
 				if(args.length == 0){
-					String pluginname = plugin.getDescription().getName();
-					String version = plugin.getDescription().getVersion();
-					String projectname = plugin.getMessages().getProjectName();
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&f----------( &c&ki&b&l "+projectname+" &7Помощь &cv"+version+" &ki&f )----------"));
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control &7&o[controller] <player> &f- Войти в Режим Контроля"));
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control nearest (&ecn&7) &f- Контролировать ближайшего игрока"));
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control stop (&es&7) &o[controller] &f- Выход Из Режима Контроля"));
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control forcechat (&efc&7) &o<player> <message> &f- Отправить сообщение от имени жертвы"));
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control reload (&er&7) &f- Перезапустить плагин"));
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control simple (&esim&7) &f- Выйти в Обычный Режим"));
-                    sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "\n&bПереведено &lXackiGiFF\n&5&ohttp://vk.com/mpe_off"));
-					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&f----------( &c&ki&6&l "+pluginname+" &7Помощь &cv"+version+" &ki&f )----------"));
+					//String pluginname = plugin.getDescription().getName();
+					//String version = plugin.getDescription().getVersion();
+					//String projectname = plugin.getMessages().getProjectName();
+					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&f========== &b&lHacker&f&lCraft &8| &bКОНТРОЛЬ &f=========="));
+					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control [controller] [player] &8- &fВойти в режим контроля."));
+					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control stop [controller] &8- Выйти из режима контроля."));
+					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control nearest &8- &fКонтролировать ближайшего игрока."));
+					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control forcechat [player] [message] &f- Написать сообщение от имени игрока."));
+					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/control simple &8- &fВыйти в обычный режим."));
+					sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&f========== &b&lHacker&f&lCraft &8| &bКОНТРОЛЬ &f=========="));
 				}else{
 					if(args.length==1){
 						//For /control <player>
